@@ -1,0 +1,19 @@
+{
+  "name": "Toolcast Recorder",
+  "description": "Toolcast Recorder",
+  "version": "0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["./hot-reload.js"]
+  },
+  "permissions": ["downloads", "management", "storage", "activeTab", "tabs"],
+  "web_accessible_resources": [
+    "assets/*.svg",
+    "assets/*.png",
+    "assets/**/*.json",
+    "assets/**/*.ogg"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
