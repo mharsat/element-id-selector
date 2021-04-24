@@ -1,6 +1,6 @@
 {
-  "name": "Toolcast Recorder",
-  "description": "Toolcast Recorder",
+  "name": "Element ID Selector",
+  "description": "Select elements and see their id and data-hook attributes",
   "version": "0.1",
   "manifest_version": 2,
   "background": {
